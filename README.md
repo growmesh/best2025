@@ -72,7 +72,7 @@ Participants must submit a schedule of courier actions in JSON format:
 
 Submissions are scored based on:
 
-- **Base Score**: The maximum time slice when all packages are delivered (lower is better)
+- **Base Score**: The shortest time required to successfully deliver **all** packages (lower is better).
 - **Penalties**:
   - +100 points per undelivered package
   - +10 points per invalid action
