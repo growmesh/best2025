@@ -3,9 +3,9 @@
 ## Submission Process
 
 1. After you invited @matteohorvath on github
-2. Your algorithm should generate an output.json inside the competition/ folder.
-3. Validate it for yourself with validator.py
-4. Push your submission to the git repo, and it will be pulled at the deadline of the competition, so be sure that you are on time.
+2. Your algorithm should generate an output.json inside the competition/ folder. (see example at example/extreme/)
+3. Validate it yourself with validator.py
+4. Push your submission to the git repo, and it will be pulled at the deadline of the competition, so make sure you are on time.
 
 ## Getting Started
 
