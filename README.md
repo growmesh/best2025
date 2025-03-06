@@ -1,5 +1,7 @@
 # Package Delivery Algorithm Competition
 
+All info and tools can be found at https://best.growmesh.io
+
 ## Submission Process
 
 1. After you invited @matteohorvath on github
