@@ -1,0 +1,86 @@
+[
+  {
+    "time": 0,
+    "courier": "C1",
+    "action": "pick_up",
+    "location": "W1",
+    "packages": ["P001"]
+  },
+  {
+    "time": 1,
+    "courier": "C1",
+    "action": "move",
+    "from": [1, 1],
+    "to": [2, 2],
+    "packages": ["P001"]
+  },
+  {
+    "time": 2,
+    "courier": "C1",
+    "action": "move",
+    "from": [2, 2],
+    "to": [3, 3],
+    "packages": ["P001"]
+  },
+  {
+    "time": 3,
+    "courier": "C1",
+    "action": "move",
+    "from": [3, 3],
+    "to": [4, 4],
+    "packages": ["P001"]
+  },
+  {
+    "time": 4,
+    "courier": "C1",
+    "action": "deliver",
+    "location": "D1",
+    "packages": ["P001"]
+  },
+  {
+    "time": 5,
+    "courier": "C1",
+    "action": "move",
+    "from": [4, 4],
+    "to": [3, 3],
+    "packages": []
+  },
+  {
+    "time": 6,
+    "courier": "C1",
+    "action": "move",
+    "from": [3, 3],
+    "to": [2, 2],
+    "packages": []
+  },
+  {
+    "time": 7,
+    "courier": "C1",
+    "action": "move",
+    "from": [2, 2],
+    "to": [1, 1],
+    "packages": []
+  },
+  {
+    "time": 8,
+    "courier": "C1",
+    "action": "pick_up",
+    "location": "W1",
+    "packages": ["P002"]
+  },
+  {
+    "time": 9,
+    "courier": "C1",
+    "action": "move",
+    "from": [1, 1],
+    "to": [2, 0],
+    "packages": ["P002"]
+  },
+  {
+    "time": 10,
+    "courier": "C1",
+    "action": "deliver",
+    "location": "D2",
+    "packages": ["P002"]
+  }
+]

@@ -1,6 +1,21 @@
 # Package Delivery Algorithm Competition
 
+## Submission Process
+
+1. After you invited @matteohorvath on github
+2. Your algorithm should generate an output.json inside the competition/ folder.
+3. Validate it for yourself with validator.py
+4. Push your submission to the git repo, and it will be pulled at the deadline of the competition, so be sure that you are on time.
+
+## Getting Started
+
+1. "Use template" the repository, and make it private
+2. Share it with (@matteohorvath)
+3. Install the dependencies (pip install -r requirements)
+4. Start building
+
 ## Overview
+
 Welcome to the Package Delivery Algorithm Competition! This competition challenges participants to develop efficient algorithms for solving a complex package delivery optimization problem. Participants will create schedules for couriers to pick up, transport, and deliver packages across a 2D grid map containing warehouses, package points, and destinations.
 
 ## Problem Description
@@ -79,28 +94,7 @@ Submissions are scored based on:
 
 Final Score = Base Score + Penalties (lower is better)
 
-## Testing Platform
 
-Participants can use our online testing platform to:
-
-- Download input files
-- Submit test runs for immediate feedback
-- Validate their solutions before final submission
-
-## Submission Process
-
-1. Develop your algorithm
-2. Test it on the provided sample cases
-3. Submit your final solution before the deadline
-4. Results will be displayed on the leaderboard after evaluation
-
-## Getting Started
-
-1. Review the detailed problem specification
-2. Download the starter kit and sample test cases
-3. Implement your solution
-4. Test and refine your algorithm
-5. Submit your final solution
 
 ## Tools
 

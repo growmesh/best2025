@@ -1,0 +1,87 @@
+{
+  "map": {
+    "dimensions": [20, 20],
+    "locations": [
+      { "id": "W1", "type": "warehouse", "coordinates": [1, 1] },
+      { "id": "W2", "type": "warehouse", "coordinates": [18, 1] },
+      { "id": "W3", "type": "warehouse", "coordinates": [1, 18] },
+      { "id": "W4", "type": "warehouse", "coordinates": [18, 18] },
+
+      {
+        "id": "P1",
+        "type": "package_point",
+        "capacity": 5,
+        "coordinates": [5, 5]
+      },
+      {
+        "id": "P2",
+        "type": "package_point",
+        "capacity": 5,
+        "coordinates": [15, 5]
+      },
+      {
+        "id": "P3",
+        "type": "package_point",
+        "capacity": 5,
+        "coordinates": [5, 15]
+      },
+      {
+        "id": "P4",
+        "type": "package_point",
+        "capacity": 5,
+        "coordinates": [15, 15]
+      },
+      {
+        "id": "P5",
+        "type": "package_point",
+        "capacity": 10,
+        "coordinates": [10, 10]
+      },
+
+      { "id": "D1", "type": "destination", "coordinates": [3, 3] },
+      { "id": "D2", "type": "destination", "coordinates": [17, 3] },
+      { "id": "D3", "type": "destination", "coordinates": [3, 17] },
+      { "id": "D4", "type": "destination", "coordinates": [17, 17] },
+      { "id": "D5", "type": "destination", "coordinates": [10, 3] },
+      { "id": "D6", "type": "destination", "coordinates": [3, 10] },
+      { "id": "D7", "type": "destination", "coordinates": [17, 10] },
+      { "id": "D8", "type": "destination", "coordinates": [10, 17] }
+    ]
+  },
+  "couriers": [
+    { "id": "C1", "start_location": "W1", "capacity": 3 },
+    { "id": "C2", "start_location": "W2", "capacity": 3 },
+    { "id": "C3", "start_location": "W3", "capacity": 3 },
+    { "id": "C4", "start_location": "W4", "capacity": 3 },
+    { "id": "C5", "start_location": "W1", "capacity": 2 },
+    { "id": "C6", "start_location": "W2", "capacity": 2 },
+    { "id": "C7", "start_location": "W3", "capacity": 2 },
+    { "id": "C8", "start_location": "W4", "capacity": 2 }
+  ],
+  "packages": [
+    { "id": "P001", "origin": "W1", "destination": "D1", "arrival_time": 0 },
+    { "id": "P002", "origin": "W1", "destination": "D2", "arrival_time": 5 },
+    { "id": "P003", "origin": "W1", "destination": "D3", "arrival_time": 10 },
+    { "id": "P004", "origin": "W1", "destination": "D4", "arrival_time": 15 },
+
+    { "id": "P005", "origin": "W2", "destination": "D1", "arrival_time": 0 },
+    { "id": "P006", "origin": "W2", "destination": "D2", "arrival_time": 5 },
+    { "id": "P007", "origin": "W2", "destination": "D3", "arrival_time": 10 },
+    { "id": "P008", "origin": "W2", "destination": "D4", "arrival_time": 15 },
+
+    { "id": "P009", "origin": "W3", "destination": "D5", "arrival_time": 0 },
+    { "id": "P010", "origin": "W3", "destination": "D6", "arrival_time": 5 },
+    { "id": "P011", "origin": "W3", "destination": "D7", "arrival_time": 10 },
+    { "id": "P012", "origin": "W3", "destination": "D8", "arrival_time": 15 },
+
+    { "id": "P013", "origin": "W4", "destination": "D5", "arrival_time": 0 },
+    { "id": "P014", "origin": "W4", "destination": "D6", "arrival_time": 5 },
+    { "id": "P015", "origin": "W4", "destination": "D7", "arrival_time": 10 },
+    { "id": "P016", "origin": "W4", "destination": "D8", "arrival_time": 15 },
+
+    { "id": "P017", "origin": "W1", "destination": "D5", "arrival_time": 20 },
+    { "id": "P018", "origin": "W2", "destination": "D6", "arrival_time": 20 },
+    { "id": "P019", "origin": "W3", "destination": "D7", "arrival_time": 20 },
+    { "id": "P020", "origin": "W4", "destination": "D8", "arrival_time": 20 }
+  ]
+}

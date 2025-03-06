@@ -1,0 +1,411 @@
+[
+  {
+    "time": 0,
+    "courier": "C1",
+    "action": "pick_up",
+    "location": "W1",
+    "packages": ["P001"]
+  },
+  {
+    "time": 0,
+    "courier": "C2",
+    "action": "pick_up",
+    "location": "W2",
+    "packages": ["P005"]
+  },
+  {
+    "time": 0,
+    "courier": "C3",
+    "action": "pick_up",
+    "location": "W3",
+    "packages": ["P009"]
+  },
+  {
+    "time": 0,
+    "courier": "C4",
+    "action": "pick_up",
+    "location": "W4",
+    "packages": ["P013"]
+  },
+  {
+    "time": 0,
+    "courier": "C5",
+    "action": "wait",
+    "location": "W1",
+    "packages": []
+  },
+  {
+    "time": 0,
+    "courier": "C6",
+    "action": "wait",
+    "location": "W2",
+    "packages": []
+  },
+  {
+    "time": 0,
+    "courier": "C7",
+    "action": "wait",
+    "location": "W3",
+    "packages": []
+  },
+  {
+    "time": 0,
+    "courier": "C8",
+    "action": "wait",
+    "location": "W4",
+    "packages": []
+  },
+
+  {
+    "time": 1,
+    "courier": "C1",
+    "action": "move",
+    "from": [1, 1],
+    "to": [2, 2],
+    "packages": ["P001"]
+  },
+  {
+    "time": 1,
+    "courier": "C2",
+    "action": "move",
+    "from": [18, 1],
+    "to": [17, 2],
+    "packages": ["P005"]
+  },
+  {
+    "time": 1,
+    "courier": "C3",
+    "action": "move",
+    "from": [1, 18],
+    "to": [2, 17],
+    "packages": ["P009"]
+  },
+  {
+    "time": 1,
+    "courier": "C4",
+    "action": "move",
+    "from": [18, 18],
+    "to": [17, 17],
+    "packages": ["P013"]
+  },
+
+  {
+    "time": 2,
+    "courier": "C1",
+    "action": "move",
+    "from": [2, 2],
+    "to": [3, 3],
+    "packages": ["P001"]
+  },
+  {
+    "time": 2,
+    "courier": "C2",
+    "action": "move",
+    "from": [17, 2],
+    "to": [16, 3],
+    "packages": ["P005"]
+  },
+  {
+    "time": 2,
+    "courier": "C3",
+    "action": "move",
+    "from": [2, 17],
+    "to": [3, 16],
+    "packages": ["P009"]
+  },
+  {
+    "time": 2,
+    "courier": "C4",
+    "action": "move",
+    "from": [17, 17],
+    "to": [16, 16],
+    "packages": ["P013"]
+  },
+
+  {
+    "time": 3,
+    "courier": "C1",
+    "action": "deliver",
+    "location": "D1",
+    "packages": ["P001"]
+  },
+  {
+    "time": 3,
+    "courier": "C2",
+    "action": "move",
+    "from": [16, 3],
+    "to": [15, 4],
+    "packages": ["P005"]
+  },
+  {
+    "time": 3,
+    "courier": "C3",
+    "action": "move",
+    "from": [3, 16],
+    "to": [4, 15],
+    "packages": ["P009"]
+  },
+  {
+    "time": 3,
+    "courier": "C4",
+    "action": "move",
+    "from": [16, 16],
+    "to": [15, 15],
+    "packages": ["P013"]
+  },
+
+  {
+    "time": 4,
+    "courier": "C1",
+    "action": "move",
+    "from": [3, 3],
+    "to": [2, 2],
+    "packages": []
+  },
+  {
+    "time": 4,
+    "courier": "C2",
+    "action": "move",
+    "from": [15, 4],
+    "to": [14, 5],
+    "packages": ["P005"]
+  },
+  {
+    "time": 4,
+    "courier": "C3",
+    "action": "move",
+    "from": [4, 15],
+    "to": [5, 14],
+    "packages": ["P009"]
+  },
+  {
+    "time": 4,
+    "courier": "C4",
+    "action": "move",
+    "from": [15, 15],
+    "to": [14, 14],
+    "packages": ["P013"]
+  },
+
+  {
+    "time": 5,
+    "courier": "C1",
+    "action": "move",
+    "from": [2, 2],
+    "to": [1, 1],
+    "packages": []
+  },
+  {
+    "time": 5,
+    "courier": "C2",
+    "action": "move",
+    "from": [14, 5],
+    "to": [13, 6],
+    "packages": ["P005"]
+  },
+  {
+    "time": 5,
+    "courier": "C3",
+    "action": "move",
+    "from": [5, 14],
+    "to": [6, 13],
+    "packages": ["P009"]
+  },
+  {
+    "time": 5,
+    "courier": "C4",
+    "action": "move",
+    "from": [14, 14],
+    "to": [13, 13],
+    "packages": ["P013"]
+  },
+  {
+    "time": 5,
+    "courier": "C5",
+    "action": "pick_up",
+    "location": "W1",
+    "packages": ["P002"]
+  },
+  {
+    "time": 5,
+    "courier": "C6",
+    "action": "pick_up",
+    "location": "W2",
+    "packages": ["P006"]
+  },
+  {
+    "time": 5,
+    "courier": "C7",
+    "action": "pick_up",
+    "location": "W3",
+    "packages": ["P010"]
+  },
+  {
+    "time": 5,
+    "courier": "C8",
+    "action": "pick_up",
+    "location": "W4",
+    "packages": ["P014"]
+  },
+
+  {
+    "time": 6,
+    "courier": "C5",
+    "action": "move",
+    "from": [1, 1],
+    "to": [2, 2],
+    "packages": ["P002"]
+  },
+  {
+    "time": 6,
+    "courier": "C6",
+    "action": "move",
+    "from": [18, 1],
+    "to": [17, 2],
+    "packages": ["P006"]
+  },
+  {
+    "time": 6,
+    "courier": "C7",
+    "action": "move",
+    "from": [1, 18],
+    "to": [2, 17],
+    "packages": ["P010"]
+  },
+  {
+    "time": 6,
+    "courier": "C8",
+    "action": "move",
+    "from": [18, 18],
+    "to": [17, 17],
+    "packages": ["P014"]
+  },
+
+  {
+    "time": 7,
+    "courier": "C5",
+    "action": "move",
+    "from": [2, 2],
+    "to": [3, 3],
+    "packages": ["P002"]
+  },
+  {
+    "time": 7,
+    "courier": "C6",
+    "action": "move",
+    "from": [17, 2],
+    "to": [17, 3],
+    "packages": ["P006"]
+  },
+  {
+    "time": 7,
+    "courier": "C7",
+    "action": "move",
+    "from": [2, 17],
+    "to": [3, 16],
+    "packages": ["P010"]
+  },
+  {
+    "time": 7,
+    "courier": "C8",
+    "action": "move",
+    "from": [17, 17],
+    "to": [16, 16],
+    "packages": ["P014"]
+  },
+
+  {
+    "time": 8,
+    "courier": "C6",
+    "action": "deliver",
+    "location": "D2",
+    "packages": ["P006"]
+  },
+
+  {
+    "time": 10,
+    "courier": "C1",
+    "action": "pick_up",
+    "location": "W1",
+    "packages": ["P003"]
+  },
+  {
+    "time": 10,
+    "courier": "C2",
+    "action": "pick_up",
+    "location": "W2",
+    "packages": ["P007"]
+  },
+  {
+    "time": 10,
+    "courier": "C3",
+    "action": "pick_up",
+    "location": "W3",
+    "packages": ["P011"]
+  },
+  {
+    "time": 10,
+    "courier": "C4",
+    "action": "pick_up",
+    "location": "W4",
+    "packages": ["P015"]
+  },
+
+  {
+    "time": 15,
+    "courier": "C1",
+    "action": "pick_up",
+    "location": "W1",
+    "packages": ["P004"]
+  },
+  {
+    "time": 15,
+    "courier": "C2",
+    "action": "pick_up",
+    "location": "W2",
+    "packages": ["P008"]
+  },
+  {
+    "time": 15,
+    "courier": "C3",
+    "action": "pick_up",
+    "location": "W3",
+    "packages": ["P012"]
+  },
+  {
+    "time": 15,
+    "courier": "C4",
+    "action": "pick_up",
+    "location": "W4",
+    "packages": ["P016"]
+  },
+
+  {
+    "time": 20,
+    "courier": "C5",
+    "action": "pick_up",
+    "location": "W1",
+    "packages": ["P017"]
+  },
+  {
+    "time": 20,
+    "courier": "C6",
+    "action": "pick_up",
+    "location": "W2",
+    "packages": ["P018"]
+  },
+  {
+    "time": 20,
+    "courier": "C7",
+    "action": "pick_up",
+    "location": "W3",
+    "packages": ["P019"]
+  },
+  {
+    "time": 20,
+    "courier": "C8",
+    "action": "pick_up",
+    "location": "W4",
+    "packages": ["P020"]
+  }
+]

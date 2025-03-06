@@ -1,0 +1,16 @@
+{
+  "map": {
+    "dimensions": [5, 5],
+    "locations": [
+      { "id": "W1", "type": "warehouse", "coordinates": [1, 1] },
+
+      { "id": "D1", "type": "destination", "coordinates": [4, 4] },
+      { "id": "D2", "type": "destination", "coordinates": [2, 0] }
+    ]
+  },
+  "couriers": [{ "id": "C1", "start_location": "W1", "capacity": 2 }],
+  "packages": [
+    { "id": "P001", "origin": "W1", "destination": "D1", "arrival_time": 0 },
+    { "id": "P002", "origin": "W1", "destination": "D2", "arrival_time": 5 }
+  ]
+}
