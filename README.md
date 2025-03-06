@@ -1,6 +1,9 @@
 # Package Delivery Algorithm Competition
 
-All info and tools can be found at https://best.growmesh.io
+All info and tools can be found at  
+https://best.growmesh.io  
+or  
+https://github.com/growmesh/best2025  
 
 ## Submission Process
 
